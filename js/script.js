@@ -247,10 +247,20 @@
   ];
 
   // Practice-area photos already sourced (credited Unsplash stock); other groups use a placeholder.
+  // Fotos por área de práctica. El índice corresponde al orden de
+  // translations.<idioma>.areas.groups. Las que llevan `credit` son de
+  // stock (Unsplash) y muestran la atribución sobre la imagen; las
+  // propias del estudio no la llevan.
   const areaPhotos = {
     0: { src: 'https://images.unsplash.com/photo-1767972159871-b9f5d320be2b?fm=jpg&q=80&w=1200&auto=format&fit=crop', credit: 'Sasun Bughdaryan', href: 'https://unsplash.com/@sasun1990' },
-    2: { src: 'https://images.unsplash.com/photo-1752159684779-0639174cdfac?fm=jpg&q=80&w=1200&auto=format&fit=crop', credit: 'Ambre Estève', href: 'https://unsplash.com/@ambresteve' },
-    6: { src: 'https://images.unsplash.com/photo-1764113697577-b5899b9a339d?fm=jpg&q=80&w=1200&auto=format&fit=crop', credit: 'Albert Stoynov', href: 'https://unsplash.com/@albertstoynov' }
+    1: { src: 'img/area-civil.webp' },
+    2: { src: 'img/area-empresarial.webp' },
+    3: { src: 'img/area-laboral.webp' },
+    4: { src: 'img/area-tributario.webp' },
+    5: { src: 'img/area-administrativo.webp' },
+    6: { src: 'https://images.unsplash.com/photo-1764113697577-b5899b9a339d?fm=jpg&q=80&w=1200&auto=format&fit=crop', credit: 'Albert Stoynov', href: 'https://unsplash.com/@albertstoynov' },
+    7: { src: 'img/area-migracion.webp' }
+    // 8 (Derecho de Familia) — pendiente de imagen propia
   };
 
   const NOSOTROS_BANNER = { src: 'https://images.unsplash.com/photo-1699495732534-02b9e520711d?fm=jpg&q=80&w=1600&auto=format&fit=crop', credit: 'Sergio Arteaga', href: 'https://unsplash.com/@saarteaga' };
@@ -532,7 +542,9 @@
             <div class="corner-frame" style="position:absolute;inset:20px">
               <div class="photo-box ${photo ? '' : 'placeholder'}" style="position:absolute;inset:0">
                 ${photo
-                  ? `<img src="${photo.src}" alt="" loading="lazy"><span class="credit">Foto: <a href="${photo.href}${UNSPLASH_UTM}" target="_blank" rel="noopener">${esc(photo.credit)}</a></span>`
+                  ? `<img src="${photo.src}" alt="${esc(g.title)}" loading="lazy">${photo.credit
+                      ? `<span class="credit">Foto: <a href="${photo.href}${UNSPLASH_UTM}" target="_blank" rel="noopener">${esc(photo.credit)}</a></span>`
+                      : ''}`
                   : photoIcon()}
               </div>
             </div>
