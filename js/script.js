@@ -596,10 +596,7 @@
       </div>
 
       <div class="about-intro reveal">
-        <div class="split-text"><p class="body-text drop-cap" style="font-size:17px;line-height:1.9">${esc(T.nosotros.intro)}</p></div>
-        <div class="split-img corner-frame">
-          <div class="photo-box placeholder">${photoIcon()}</div>
-        </div>
+        <p class="body-text drop-cap" style="font-size:17px;line-height:1.9">${esc(T.nosotros.intro)}</p>
       </div>
 
       <div class="about-body">
