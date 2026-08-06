@@ -6,9 +6,10 @@
   // ============================================================
 
   const teamMembers = {
-    alex: { name: 'Alex Vignolo Salvo', roleKey: 'doctor', credential: 'Doctor en Jurisprudencia · Asesor Comercial', areas: 'Derecho Comercial, Asesoría Corporativa', photo: 'team-alex.webp' },
+    alex: { name: 'Alex Vignolo Salvo', roleKey: 'doctor', credential: 'Doctor en Jurisprudencia · Asesor Comercial', areas: 'Derecho Comercial, Asesoría Corporativa', photo: 'team-alex.webp', email: 'avignolo@vignolobarzallo.com' },
     mariabarzallo: {
       name: 'María Augusta Barzallo Seade', roleKey: 'doctora',
+      email: 'ma.barzallo@vignolobarzallo.com',
       credential: 'Doctora en Jurisprudencia, Universidad de Cuenca',
       areas: 'Derecho Civil, Derecho de Familia', photo: 'team-mariabarzallo.webp',
       bio: 'Doctora en Jurisprudencia y Abogada de los Tribunales de Justicia por la Universidad de Cuenca, Licenciada en Ciencias Políticas y Sociales, con Máster en Asesoría Jurídica de Empresas por la Universidad del Azuay y la Universitat de Valencia, y Diploma Superior en Derecho Constitucional y Derechos Fundamentales por la Universidad de Cuenca. Dirige el Estudio Jurídico Vignolo Barzallo desde 1992. Ha sido docente de Derecho Laboral, Seguridad Social y Derecho Civil de Bienes en la Universidad de Cuenca, jueza suplente del Juzgado Sexto de lo Penal del Azuay y jefa del Departamento Legal del Banco Continental. Es autora del libro «Análisis del Derecho Laboral Ecuatoriano» (2012) y ha sido Vicepresidenta del Colegio de Abogados del Azuay y de la Cámara de la Pequeña Industria del Azuay.',
@@ -24,6 +25,7 @@
     },
     giancarlo: {
       name: 'Giancarlo Vignolo Barzallo', roleKey: 'socio',
+      email: 'giancarlo@vignolobarzallo.com',
       credential: 'Máster en Derecho Penal, Universidad del Azuay',
       areas: 'Derecho Penal y Mediación', photo: 'team-giancarlo.webp',
       bio: 'Abogado de los Tribunales de la República por la Universidad del Azuay, con Máster en Derecho Penal por la misma universidad y acreditación como mediador por el Centro de Arbitraje y Mediación de las Cámaras de Producción del Azuay. Dirige el departamento de Derecho Penal del Estudio Jurídico Vignolo Barzallo. Ha ejercido en la Unidad de Flagrancia de la Fiscalía General del Estado y en el Departamento Legal de la Contraloría General del Estado, y ha sido expositor en congresos y seminarios sobre litigación oral y peritaje psicológico forense.',
@@ -38,6 +40,7 @@
     },
     mariaaugusta: {
       name: 'Maria Augusta Vignolo Barzallo', roleKey: 'socia',
+      email: 'ma.vignolo@vignolobarzallo.com',
       credential: 'Máster en Derecho de la Empresa, Universidad de Valencia',
       areas: 'Derecho Empresarial, Laboral y Seguridad Social', photo: 'team-mariaaugusta.webp',
       bio: 'Abogada de los Tribunales de la República por la Universidad del Azuay y Máster en Derecho de la Empresa (Asesoría Mercantil, Laboral y Fiscal) por la Universidad de Valencia, España. Su práctica se concentra en el ámbito empresarial, laboral, societario y de seguridad social, además de derecho de familia. Es Gerente General de MALIS S.A.S., subsidiaria en Ecuador de una compañía en Estados Unidos, y se ha desempeñado como asesora jurídica en la Gobernación del Azuay y la Intendencia de Policía. Fue delegada principal a la Asamblea Provincial y Nacional de Abogados del Ecuador y es socia fundadora del Club Rotario Santa Ana de los Ríos de Cuenca.',
@@ -51,6 +54,7 @@
     },
     eugenio: {
       name: 'Eugenio Stanculescu Moreno', roleKey: 'socio',
+      email: 'eugenio@vignolobarzallo.com',
       credential: 'Máster en Derecho de los Negocios Internacionales, Madrid',
       areas: 'Derecho Tributario, Empresarial y Seguros', photo: 'team-eugenio.webp',
       bio: 'Abogado de los Tribunales de Justicia por la Universidad del Azuay y Máster en Derecho de los Negocios Internacionales por la Universidad Complutense de Madrid. Se especializa en asesoría fiscal tributaria nacional e internacional, así como en Derecho Empresarial y de Seguros. Es asesor jurídico tributario y empresarial de la Cámara de la Pequeña Industria del Azuay (CAPIA) desde 2019, y ha asesorado a empresas como Banco Pichincha, LAC Línea Aérea Cuencana y la Cámara de Comercio Ecuatoriano Americana de Cuenca, entre otras. Ha sido ponente en múltiples seminarios sobre reformas tributarias y es autor de varios artículos sobre paraísos fiscales y reforma tributaria en Ecuador.',
@@ -69,6 +73,7 @@
     },
     gabriela: {
       name: 'Gabriela Zambrano Jaramillo', roleKey: 'socia',
+      email: 'gzambrano@vignolobarzallo.com',
       credential: 'Máster en Derecho de la Empresa, Universidad Andina Simón Bolívar',
       areas: 'Derecho Empresarial y Protección de Datos Personales', photo: 'team-gabriela.webp',
       bio: 'Abogada de los Tribunales de Justicia y Licenciada en Ciencias Políticas y Sociales por la Universidad de Cuenca, con Especialidad Superior y Máster en Derecho de la Empresa por la Universidad Andina Simón Bolívar. Es Delegada de Protección de Datos Personales de la Universidad de Cuenca (UCUENCA EP) y docente en la Maestría en Derecho Digital, mención Innovación Legal y Entorno Digital, de la Universidad de los Hemisferios. Mediadora calificada por el Consejo de la Judicatura, ha sido inspectora de trabajo en el Ministerio del Trabajo y abogada externa del IESS, y es socia fundadora de los estudios jurídicos Altac Legal y Abocacía.',
@@ -84,6 +89,7 @@
     },
     pedro: {
       name: 'Pedro José Córdova López', roleKey: 'socio',
+      email: 'pcordova@vignolobarzallo.com',
       credential: 'Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
       areas: 'Litigios y Resolución de Conflictos', photo: 'team-pedro.webp',
       bio: 'Abogado y Licenciado en Ciencias Políticas por la Universidad de Cuenca, con Especialidad Superior y Máster Profesional en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se enfoca en la planificación de litigios complejos y la asesoría a compañías nacionales e internacionales en negociaciones y procesos judiciales. Ha ejercido tanto en el sector público como privado, con experiencia en la Asamblea Nacional, el Ministerio del Trabajo y estudios jurídicos en Quito. Actualmente es profesor invitado en la carrera de Derecho de la UTPL y cursa la Maestría en Derecho Administrativo con mención en Contratación Pública en la Universidad de Especialidades Espíritu Santo.',
@@ -105,6 +111,7 @@
     },
     paulromo: {
       name: 'Paúl Romo Terán', roleKey: 'abogado',
+      email: 'paul.romo@vignolobarzallo.com',
       credential: 'Candidato a Máster en Asesoría Jurídica de Empresas, UNIR',
       areas: 'Derecho Societario y Propiedad Intelectual', photo: 'team-paulromo.webp',
       bio: 'Abogado por la Universidad del Azuay, con Diplomado en Gestión de Patrimonio por la Escuela de Posgrado de Salamanca. Actualmente es candidato a Máster en Asesoría Jurídica de Empresas por la Universidad Internacional de la Rioja. Su práctica se enfoca en derecho societario —constitución, reorganización y disolución de compañías— y en propiedad intelectual, particularmente en el registro de marcas y protección de activos intangibles. Cuenta con nivel de inglés B2/C1 certificado por Cambridge (FCE).',
@@ -117,6 +124,7 @@
     },
     pedrovillavicencio: {
       name: 'Pedro Francisco Villavicencio Arévalo', roleKey: 'abogado',
+      email: 'pvillavicencio@vignolobarzallo.com',
       credential: 'Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
       areas: 'Derecho Civil y Procesal', photo: 'team-pedrovillavicencio.webp',
       bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca, y candidato a Máster en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se centra en el Derecho Civil y Procesal, con un enfoque cercano y resolutivo: escucha con atención cada caso, traduce la complejidad legal en decisiones claras y acompaña a sus clientes con firmeza en procesos judiciales y negociaciones extrajudiciales hasta obtener resultados concretos. Mantiene una actualización constante a través de seminarios especializados y cuenta con inglés a nivel alto.',
@@ -130,6 +138,7 @@
     },
     pedrozamora: {
       name: 'Pedro Jose Zamora Barzallo', roleKey: 'abogado',
+      email: 'pzamora@vignolobarzallo.com',
       credential: 'Abogado, Universidad de Especialidades Espíritu Santo',
       areas: 'Derecho Civil, Laboral, Administrativo y Corporativo', photo: 'team-pedrozamora.webp',
       bio: 'Abogado por la Universidad de Especialidades Espíritu Santo (UEES), con inglés y francés a nivel intermedio. Su práctica abarca el patrocinio y defensa en procesos civiles, laborales, administrativos y corporativos, con experiencia en litigación bajo el marco del COGEP, asesoría preventiva a empresas, constitución y reestructuración de compañías, y gestión de gobierno corporativo. Se incorporó al Estudio Jurídico Vignolo Barzallo en 2020 como asistente legal y, desde julio de 2025, ejerce como abogado.',
@@ -424,7 +433,7 @@
   }
 
   function navigate(page) {
-    if (page === state.page) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    if (page === state.page && !state.selectedMember && !state.cvView) { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
     transitionTo(() => {
       state.page = page;
       state.selectedMember = null;
@@ -762,7 +771,7 @@
             <div class="cv-doc-role">${esc(roleLabel)}${m.areas ? ' · ' + esc(m.areas) : ''}</div>
           </div>
         </div>
-        <div class="cv-doc-contact">info@vignolobarzallo.com &nbsp;·&nbsp; Cuenca, Ecuador &nbsp;·&nbsp; www.vignolobarzallo.com</div>
+        <div class="cv-doc-contact">${esc(m.email || 'info@vignolobarzallo.com')} &nbsp;·&nbsp; Cuenca, Ecuador &nbsp;·&nbsp; www.vignolobarzallo.com</div>
         ${m.bio ? `<div class="cv-doc-section"><h2>${esc(Tr.profile)}</h2><p>${esc(m.bio)}</p></div>` : ''}
         <div class="cv-doc-section">
           <h2>${esc(T.team.trajectoryLabel)}</h2>
@@ -792,7 +801,7 @@
               <a class="social-circle dark-bg" href="${linkedinHref}" target="_blank" rel="noopener" title="LinkedIn">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M4.98 3.5C4.98 4.88 3.94 6 2.5 6S0 4.88 0 3.5 1.06 1 2.5 1s2.48 1.12 2.48 2.5zM.24 8.25h4.5V23H.24V8.25zm7.5 0h4.31v2.02h.06c.6-1.13 2.07-2.33 4.26-2.33 4.56 0 5.4 3 5.4 6.9V23h-4.5v-6.9c0-1.65-.03-3.77-2.3-3.77-2.3 0-2.66 1.8-2.66 3.65V23h-4.5V8.25z"></path></svg>
               </a>
-              <a class="social-circle dark-bg" href="mailto:info@vignolobarzallo.com" title="Correo">
+              <a class="social-circle dark-bg" href="mailto:${esc(m.email || 'info@vignolobarzallo.com')}" title="Correo">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
               </a>
               <button type="button" class="social-circle dark-bg" data-view-cv="${state.selectedMember}" title="${esc(T.team.cvDownload)}">
