@@ -119,13 +119,13 @@
       name: 'Pedro Francisco Villavicencio Arévalo', roleKey: 'abogado',
       credential: 'Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
       areas: 'Derecho Civil y Procesal', photo: 'team-pedrovillavicencio.webp',
-      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca, y candidato a Máster en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se centra en el Derecho Civil y Procesal, con un enfoque cercano y resolutivo: escucha con atención cada caso, traduce la complejidad legal en decisiones claras y acompaña a sus clientes con firmeza en procesos judiciales y negociaciones extrajudiciales hasta obtener resultados concretos.',
+      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca, y candidato a Máster en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se centra en el Derecho Civil y Procesal, con un enfoque cercano y resolutivo: escucha con atención cada caso, traduce la complejidad legal en decisiones claras y acompaña a sus clientes con firmeza en procesos judiciales y negociaciones extrajudiciales hasta obtener resultados concretos. Mantiene una actualización constante a través de seminarios especializados y cuenta con inglés a nivel alto.',
       resume: {
         educacion: {
           universitaria: ['Abogado, Universidad Politécnica Salesiana, sede Cuenca'],
-          postgrados: ['Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar']
-        },
-        galardones: ['Reconocimiento por distinción académica, 2024 y 2026', 'Participación como externo de la Cancillería del Ecuador, XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, Cuenca']
+          postgrados: ['Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar'],
+          especialidades: ['Seminario "Desafíos del Derecho Penal ante la Violencia Criminal en Ecuador" (2025)', 'Curso "Técnicas de Manejo de Audiencias de Mediación" (2025)']
+        }
       }
     },
     pedrozamora: {
