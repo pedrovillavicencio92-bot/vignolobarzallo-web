@@ -7,11 +7,81 @@
 
   const teamMembers = {
     alex: { name: 'Alex Vignolo Salvo', roleKey: 'doctor', credential: 'Doctor en Jurisprudencia · Asesor Comercial', areas: 'Derecho Comercial, Asesoría Corporativa', photo: 'team-alex.webp' },
-    mariabarzallo: { name: 'María Augusta Barzallo Seade', roleKey: 'doctora', credential: 'Doctora en Jurisprudencia, Universidad de Cuenca', areas: 'Derecho Civil, Derecho de Familia', photo: 'team-mariabarzallo.webp' },
-    giancarlo: { name: 'Giancarlo Vignolo Barzallo', roleKey: 'socio', credential: 'Máster en Derecho Penal · Mediador Acreditado', areas: 'Derecho Penal, Mediación y Resolución de Conflictos', photo: 'team-giancarlo.webp' },
-    mariaaugusta: { name: 'Maria Augusta Vignolo Barzallo', roleKey: 'socia', credential: 'Máster en Derecho de la Empresa, Universidad de Valencia', areas: 'Derecho Empresarial y Societario', photo: 'team-mariaaugusta.webp' },
-    eugenio: { name: 'Eugenio Stanculescu Moreno', roleKey: 'socio', credential: 'Máster en Derecho de los Negocios Internacionales, Madrid', areas: 'Derecho de los Negocios Internacionales', photo: 'team-eugenio.webp' },
-    gabriela: { name: 'Gabriela Zambrano Jaramillo', roleKey: 'socia', credential: 'Máster en Derecho de la Empresa, Universidad Andina Simón Bolívar', areas: 'Derecho Empresarial y Societario', photo: 'team-gabriela.webp' },
+    mariabarzallo: {
+      name: 'María Augusta Barzallo Seade', roleKey: 'doctora',
+      credential: 'Doctora en Jurisprudencia, Universidad de Cuenca',
+      areas: 'Derecho Civil, Derecho de Familia', photo: 'team-mariabarzallo.webp',
+      bio: 'Doctora en Jurisprudencia y Abogada de los Tribunales de Justicia por la Universidad de Cuenca, Licenciada en Ciencias Políticas y Sociales, con Máster en Asesoría Jurídica de Empresas por la Universidad del Azuay y la Universitat de Valencia, y Diploma Superior en Derecho Constitucional y Derechos Fundamentales por la Universidad de Cuenca. Dirige el Estudio Jurídico Vignolo Barzallo desde 1992. Ha sido docente de Derecho Laboral, Seguridad Social y Derecho Civil de Bienes en la Universidad de Cuenca, jueza suplente del Juzgado Sexto de lo Penal del Azuay y jefa del Departamento Legal del Banco Continental. Es autora del libro «Análisis del Derecho Laboral Ecuatoriano» (2012) y ha sido Vicepresidenta del Colegio de Abogados del Azuay y de la Cámara de la Pequeña Industria del Azuay.',
+      resume: {
+        educacion: {
+          universitaria: ['Doctora en Jurisprudencia y Abogada de los Tribunales de Justicia, Universidad de Cuenca', 'Licenciada en Ciencias Políticas y Sociales, Universidad de Cuenca'],
+          postgrados: ['Máster en Asesoría Jurídica de Empresas, Universidad del Azuay / Universitat de Valencia (España)', 'Diploma Superior en Derecho Constitucional y Derechos Fundamentales, Universidad de Cuenca']
+        },
+        docencia: ['Docente de Derecho Laboral, Seguridad Social y Derecho Civil de Bienes, Universidad de Cuenca'],
+        publicaciones: ['Análisis del Derecho Laboral Ecuatoriano — Teoría, Doctrina y Jurisprudencia, Editorial Carpol, 2012'],
+        membresias: ['Vicepresidenta, Colegio de Abogados del Azuay (2016-2018)', 'Vicepresidenta, Cámara de la Pequeña Industria del Azuay (2020-2026)']
+      }
+    },
+    giancarlo: {
+      name: 'Giancarlo Vignolo Barzallo', roleKey: 'socio',
+      credential: 'Máster en Derecho Penal, Universidad del Azuay',
+      areas: 'Derecho Penal y Mediación', photo: 'team-giancarlo.webp',
+      bio: 'Abogado de los Tribunales de la República por la Universidad del Azuay, con Máster en Derecho Penal por la misma universidad y acreditación como mediador por el Centro de Arbitraje y Mediación de las Cámaras de Producción del Azuay. Dirige el departamento de Derecho Penal del Estudio Jurídico Vignolo Barzallo. Ha ejercido en la Unidad de Flagrancia de la Fiscalía General del Estado y en el Departamento Legal de la Contraloría General del Estado, y ha sido expositor en congresos y seminarios sobre litigación oral y peritaje psicológico forense.',
+      resume: {
+        educacion: {
+          universitaria: ['Abogado de los Tribunales de la República del Ecuador, Universidad del Azuay'],
+          postgrados: ['Máster en Derecho Penal, Universidad del Azuay'],
+          especialidades: ['Mediador, Centro de Arbitraje y Mediación de las Cámaras de Producción del Azuay']
+        },
+        docencia: ['Profesor Ad-honórem, Maestría en Psicología Forense y Peritaje Psicológico, Pontificia Universidad Católica del Ecuador']
+      }
+    },
+    mariaaugusta: {
+      name: 'Maria Augusta Vignolo Barzallo', roleKey: 'socia',
+      credential: 'Máster en Derecho de la Empresa, Universidad de Valencia',
+      areas: 'Derecho Empresarial, Laboral y Seguridad Social', photo: 'team-mariaaugusta.webp',
+      bio: 'Abogada de los Tribunales de la República por la Universidad del Azuay y Máster en Derecho de la Empresa (Asesoría Mercantil, Laboral y Fiscal) por la Universidad de Valencia, España. Su práctica se concentra en el ámbito empresarial, laboral, societario y de seguridad social, además de derecho de familia. Es Gerente General de MALIS S.A.S., subsidiaria en Ecuador de una compañía en Estados Unidos, y se ha desempeñado como asesora jurídica en la Gobernación del Azuay y la Intendencia de Policía. Fue delegada principal a la Asamblea Provincial y Nacional de Abogados del Ecuador y es socia fundadora del Club Rotario Santa Ana de los Ríos de Cuenca.',
+      resume: {
+        educacion: {
+          universitaria: ['Abogada de los Tribunales de la República, Universidad del Azuay'],
+          postgrados: ['Máster en Derecho de la Empresa, Asesoría Mercantil, Laboral y Fiscal, Universidad de Valencia (España)']
+        },
+        membresias: ['Delegada principal, Asamblea Provincial y Nacional de Abogados del Ecuador (2016-2018)', 'Socia fundadora, Club Rotario Santa Ana de los Ríos de Cuenca']
+      }
+    },
+    eugenio: {
+      name: 'Eugenio Stanculescu Moreno', roleKey: 'socio',
+      credential: 'Máster en Derecho de los Negocios Internacionales, Madrid',
+      areas: 'Derecho Tributario, Empresarial y Seguros', photo: 'team-eugenio.webp',
+      bio: 'Abogado de los Tribunales de Justicia por la Universidad del Azuay y Máster en Derecho de los Negocios Internacionales por la Universidad Complutense de Madrid. Se especializa en asesoría fiscal tributaria nacional e internacional, así como en Derecho Empresarial y de Seguros. Es asesor jurídico tributario y empresarial de la Cámara de la Pequeña Industria del Azuay (CAPIA) desde 2019, y ha asesorado a empresas como Banco Pichincha, LAC Línea Aérea Cuencana y la Cámara de Comercio Ecuatoriano Americana de Cuenca, entre otras. Ha sido ponente en múltiples seminarios sobre reformas tributarias y es autor de varios artículos sobre paraísos fiscales y reforma tributaria en Ecuador.',
+      resume: {
+        educacion: {
+          universitaria: ['Abogado de los Tribunales de Justicia de la República, Universidad del Azuay'],
+          postgrados: ['Máster en Derecho de los Negocios Internacionales, Universidad Complutense de Madrid (España)']
+        },
+        publicaciones: [
+          'Análisis del Régimen Jurídico de las embarcaciones y su conflicto con regulaciones laxas ofertadas por estados paraísos fiscales, Universidad Complutense de Madrid, 2018',
+          'Análisis de la Reforma Tributaria Ecuador: Ley Orgánica para el Equilibrio de las Finanzas Públicas, Boletín legal de Gottifredi Pozo, 2016',
+          'Hablemos de paraísos fiscales, los Panamá Papers y los Estados offshore, Boletín legal de Gottifredi Pozo, 2016'
+        ],
+        membresias: ['Asesor Jurídico Tributario y Empresarial, Cámara de la Pequeña Industria del Azuay (CAPIA), desde 2019']
+      }
+    },
+    gabriela: {
+      name: 'Gabriela Zambrano Jaramillo', roleKey: 'socia',
+      credential: 'Máster en Derecho de la Empresa, Universidad Andina Simón Bolívar',
+      areas: 'Derecho Empresarial y Protección de Datos Personales', photo: 'team-gabriela.webp',
+      bio: 'Abogada de los Tribunales de Justicia y Licenciada en Ciencias Políticas y Sociales por la Universidad de Cuenca, con Especialidad Superior y Máster en Derecho de la Empresa por la Universidad Andina Simón Bolívar. Es Delegada de Protección de Datos Personales de la Universidad de Cuenca (UCUENCA EP) y docente en la Maestría en Derecho Digital, mención Innovación Legal y Entorno Digital, de la Universidad de los Hemisferios. Mediadora calificada por el Consejo de la Judicatura, ha sido inspectora de trabajo en el Ministerio del Trabajo y abogada externa del IESS, y es socia fundadora de los estudios jurídicos Altac Legal y Abocacía.',
+      resume: {
+        educacion: {
+          universitaria: ['Abogada de los Tribunales de Justicia y Licenciada en Ciencias Políticas y Sociales, Universidad de Cuenca'],
+          postgrados: ['Máster en Derecho de la Empresa, Universidad Andina Simón Bolívar', 'Especialista Superior en Derecho de la Empresa, Universidad Andina Simón Bolívar', 'Diplomado Internacional en Derecho Laboral Público y Privado, Instituto Latinoamericano de Investigación y Capacitación Jurídica'],
+          especialidades: ['Gestión de la Protección de Datos Personales – DPO, Universidad Andina Simón Bolívar', 'Delegada de Protección de Datos Personales, Universidad Central del Ecuador', 'Mediadora, calificada por el Consejo de la Judicatura']
+        },
+        docencia: ['Docente, Maestría en Derecho Digital mención Innovación Legal y Entorno Digital, Universidad de los Hemisferios'],
+        membresias: ['Socia fundadora, Altac Legal Estudio Jurídico', 'Socia fundadora, Abocacía Estudio Jurídico']
+      }
+    },
     pedro: {
       name: 'Pedro José Córdova López', roleKey: 'socio',
       credential: 'Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
@@ -33,9 +103,39 @@
         docencia: ['Profesor invitado, carrera de Derecho, Universidad Técnica Particular de Loja (UTPL)']
       }
     },
-    paulromo: { name: 'Paúl Romo Terán', roleKey: 'abogado', credential: '', areas: '', photo: 'team-paulromo.webp' },
-    pedrovillavicencio: { name: 'Pedro Francisco Villavicencio Arévalo', roleKey: 'abogado', credential: '', areas: '', photo: 'team-pedrovillavicencio.webp' },
-    pedrozamora: { name: 'Pedro Jose Zamora Barzallo', roleKey: 'abogado', credential: '', areas: '', photo: 'team-pedrozamora.webp' }
+    paulromo: {
+      name: 'Paúl Romo Terán', roleKey: 'abogado',
+      credential: 'Máster en Asesoría Jurídica de Empresas (en curso), UNIR',
+      areas: 'Derecho Societario y Propiedad Intelectual', photo: 'team-paulromo.webp',
+      bio: 'Abogado por la Universidad del Azuay, con Diplomado en Gestión de Patrimonio por la Escuela de Posgrado de Salamanca y una Maestría en Asesoría Jurídica de Empresas en curso en la Universidad Internacional de la Rioja. Su práctica se enfoca en derecho societario —constitución, reorganización y disolución de compañías— y en propiedad intelectual, particularmente en el registro de marcas y protección de activos intangibles. Cuenta con nivel de inglés B2/C1 certificado por Cambridge (FCE).',
+      resume: {
+        educacion: {
+          universitaria: ['Abogado, Universidad del Azuay'],
+          postgrados: ['Máster en Asesoría Jurídica de Empresas (en curso), Universidad Internacional de la Rioja (UNIR)', 'Diplomado en Gestión de Patrimonio, Escuela de Posgrado de Salamanca (2025)'],
+          especialidades: ['Certificación en Inglés, Cambridge FCE (2025)', 'Certificación en Liderazgo y Habilidades Blandas, Universidad de Miami (2026)']
+        }
+      }
+    },
+    pedrovillavicencio: {
+      name: 'Pedro Francisco Villavicencio Arévalo', roleKey: 'abogado',
+      credential: 'Abogado, Universidad Politécnica Salesiana',
+      areas: 'Litigios y Resolución de Conflictos', photo: 'team-pedrovillavicencio.webp',
+      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca. Su práctica se centra en la resolución estratégica de conflictos y la asesoría jurídica integral, con especial atención al manejo de procesos judiciales y negociaciones extrajudiciales. Fue reconocido por distinción académica en 2024 y 2026, y participó como externo de la Cancillería del Ecuador en el marco de la XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, celebrada en Cuenca.',
+      resume: {
+        educacion: { universitaria: ['Abogado, Universidad Politécnica Salesiana, sede Cuenca'] },
+        galardones: ['Reconocimiento por distinción académica, 2024 y 2026', 'Participación como externo de la Cancillería del Ecuador, XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, Cuenca']
+      }
+    },
+    pedrozamora: {
+      name: 'Pedro Jose Zamora Barzallo', roleKey: 'abogado',
+      credential: 'Abogado, Universidad de Especialidades Espíritu Santo',
+      areas: 'Derecho Civil, Laboral, Administrativo y Corporativo', photo: 'team-pedrozamora.webp',
+      bio: 'Abogado por la Universidad de Especialidades Espíritu Santo (UEES). Su práctica abarca el patrocinio y defensa en procesos civiles, laborales, administrativos y corporativos, con experiencia en litigación bajo el marco del COGEP, asesoría preventiva a empresas, constitución y reestructuración de compañías, y gestión de gobierno corporativo. Se incorporó al Estudio Jurídico Vignolo Barzallo en 2020 como asistente legal y, desde julio de 2025, ejerce como abogado.',
+      resume: {
+        educacion: { universitaria: ['Abogado, Universidad de Especialidades Espíritu Santo (UEES)'] },
+        especialidades: ['Inglés nivel B1 (oral y escrito)', 'Francés nivel A2 (oral y escrito)']
+      }
+    }
   };
 
   // Administrative/support staff (not lawyers) — name + role only, no photos.
@@ -259,8 +359,8 @@
     4: { src: 'img/area-tributario.webp' },
     5: { src: 'img/area-administrativo.webp' },
     6: { src: 'https://images.unsplash.com/photo-1764113697577-b5899b9a339d?fm=jpg&q=80&w=1200&auto=format&fit=crop', credit: 'Albert Stoynov', href: 'https://unsplash.com/@albertstoynov' },
-    7: { src: 'img/area-migracion.webp' }
-    // 8 (Derecho de Familia) — pendiente de imagen propia
+    7: { src: 'img/area-migracion.webp' },
+    8: { src: 'img/area-familia.webp' }
   };
 
   const NOSOTROS_BANNER = { src: 'https://images.unsplash.com/photo-1699495732534-02b9e520711d?fm=jpg&q=80&w=1600&auto=format&fit=crop', credit: 'Sergio Arteaga', href: 'https://unsplash.com/@saarteaga' };
@@ -351,7 +451,9 @@
 
   function renderHomePage() {
     const T = t();
-    const heroImgs = ['img/portada.webp', 'img/nosotros.webp', 'img/contacto.webp'];
+    // La segunda imagen es el Edificio Cámara de Industrias, sede del estudio.
+    // Ya viene en blanco y negro, por eso no lleva el filtro `grayscale`.
+    const heroImgs = ['img/portada.webp', 'img/inicio-edificio.webp', 'img/contacto.webp'];
     const heroGray = [false, false, true];
     const slides = heroImgs.map((src, i) => `
       <div class="hero-slide ${i === state.heroSlide ? 'active' : ''} ${heroGray[i] ? 'grayscale' : ''}">
