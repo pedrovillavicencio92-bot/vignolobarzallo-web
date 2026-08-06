@@ -105,24 +105,27 @@
     },
     paulromo: {
       name: 'Paúl Romo Terán', roleKey: 'abogado',
-      credential: 'Máster en Asesoría Jurídica de Empresas (en curso), UNIR',
+      credential: 'Candidato a Máster en Asesoría Jurídica de Empresas, UNIR',
       areas: 'Derecho Societario y Propiedad Intelectual', photo: 'team-paulromo.webp',
-      bio: 'Abogado por la Universidad del Azuay, con Diplomado en Gestión de Patrimonio por la Escuela de Posgrado de Salamanca y una Maestría en Asesoría Jurídica de Empresas en curso en la Universidad Internacional de la Rioja. Su práctica se enfoca en derecho societario —constitución, reorganización y disolución de compañías— y en propiedad intelectual, particularmente en el registro de marcas y protección de activos intangibles. Cuenta con nivel de inglés B2/C1 certificado por Cambridge (FCE).',
+      bio: 'Abogado por la Universidad del Azuay, con Diplomado en Gestión de Patrimonio por la Escuela de Posgrado de Salamanca. Actualmente es candidato a Máster en Asesoría Jurídica de Empresas por la Universidad Internacional de la Rioja. Su práctica se enfoca en derecho societario —constitución, reorganización y disolución de compañías— y en propiedad intelectual, particularmente en el registro de marcas y protección de activos intangibles. Cuenta con nivel de inglés B2/C1 certificado por Cambridge (FCE).',
       resume: {
         educacion: {
           universitaria: ['Abogado, Universidad del Azuay'],
-          postgrados: ['Máster en Asesoría Jurídica de Empresas (en curso), Universidad Internacional de la Rioja (UNIR)', 'Diplomado en Gestión de Patrimonio, Escuela de Posgrado de Salamanca (2025)'],
+          postgrados: ['Candidato a Máster en Asesoría Jurídica de Empresas, Universidad Internacional de la Rioja (UNIR)', 'Diplomado en Gestión de Patrimonio, Escuela de Posgrado de Salamanca (2025)'],
           especialidades: ['Certificación en Inglés, Cambridge FCE (2025)', 'Certificación en Liderazgo y Habilidades Blandas, Universidad de Miami (2026)']
         }
       }
     },
     pedrovillavicencio: {
       name: 'Pedro Francisco Villavicencio Arévalo', roleKey: 'abogado',
-      credential: 'Abogado, Universidad Politécnica Salesiana',
+      credential: 'Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
       areas: 'Litigios y Resolución de Conflictos', photo: 'team-pedrovillavicencio.webp',
-      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca. Su práctica se centra en la resolución estratégica de conflictos y la asesoría jurídica integral, con especial atención al manejo de procesos judiciales y negociaciones extrajudiciales. Fue reconocido por distinción académica en 2024 y 2026, y participó como externo de la Cancillería del Ecuador en el marco de la XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, celebrada en Cuenca.',
+      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca, y candidato a Máster en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se centra en la resolución estratégica de conflictos y la asesoría jurídica integral, con especial atención al manejo de procesos judiciales y negociaciones extrajudiciales. Fue reconocido por distinción académica en 2024 y 2026, y participó como externo de la Cancillería del Ecuador en el marco de la XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, celebrada en Cuenca.',
       resume: {
-        educacion: { universitaria: ['Abogado, Universidad Politécnica Salesiana, sede Cuenca'] },
+        educacion: {
+          universitaria: ['Abogado, Universidad Politécnica Salesiana, sede Cuenca'],
+          postgrados: ['Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar']
+        },
         galardones: ['Reconocimiento por distinción académica, 2024 y 2026', 'Participación como externo de la Cancillería del Ecuador, XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, Cuenca']
       }
     },
@@ -182,8 +185,8 @@
           { title: 'Derecho de Familia', summary: 'Divorcios, régimen de alimentos, adopciones y convenios familiares, con un enfoque humano y confidencial.', items: ['Divorcio y Régimen de Alimentos', 'Adopciones y Patria Potestad', 'Uniones de Hecho y Convenios Familiares'], checklist: ['Partida de matrimonio o unión de hecho', 'Partidas de nacimiento de los hijos, si los hay', 'Acuerdos previos sobre alimentos o tenencia'], related: 1 }
         ]
       },
-      team: { eyebrow: 'Equipo', title: 'Nuestro equipo', intro: 'Somos en total 11 abogados comprometidos con la excelencia y la confianza de nuestros clientes.', founders: 'Socios Fundadores', partners: 'Socios', lawyers: 'Abogados', roles: { abogado: 'Abogado', doctor: 'Doctor', doctora: 'Doctora', socio: 'Socio', socia: 'Socia' }, back: 'Volver al equipo', areasLabel: 'Áreas de práctica', bioIntro: 'forma parte del equipo de', trajectoryLabel: 'Trayectoria Profesional', present: 'Actualidad', newPartner: 'Nuevo Socio', newLawyer: 'Nuevo Abogado', spotAvailable: 'Espacio disponible', adminLabel: 'Equipo Administrativo',
-        resume: { education: 'Educación', university: 'Universitaria', postgrad: 'Postgrados', specialties: 'Especialidades', publications: 'Publicaciones', teaching: 'Docencia', awards: 'Galardones', memberships: 'Membresías' } },
+      team: { eyebrow: 'Equipo', title: 'Nuestro equipo', intro: 'Somos en total 11 abogados comprometidos con la excelencia y la confianza de nuestros clientes.', founders: 'Socios Fundadores', partners: 'Socios', lawyers: 'Abogados', roles: { abogado: 'Abogado', doctor: 'Doctor', doctora: 'Doctora', socio: 'Socio', socia: 'Socia' }, back: 'Volver al equipo', areasLabel: 'Áreas de práctica', bioIntro: 'forma parte del equipo de', trajectoryLabel: 'Trayectoria Profesional', present: 'Actualidad', newPartner: 'Nuevo Socio', newLawyer: 'Nuevo Abogado', spotAvailable: 'Espacio disponible', adminLabel: 'Equipo Administrativo', cvDownload: 'Descargar CV', backToProfile: 'Volver al perfil',
+        resume: { education: 'Educación', university: 'Universitaria', postgrad: 'Postgrados', specialties: 'Especialidades', publications: 'Publicaciones', teaching: 'Docencia', awards: 'Galardones', memberships: 'Membresías', profile: 'Perfil' } },
       motivation: { eyebrow: 'Nuestra motivación', text: 'Motivados por el constante estudio y preocupación de la normativa legal vigente, consideramos que en el Ecuador se deben respetar los derechos y que su vulneración es una transgresión que no debe ser permitida bajo ninguna justificación. Nuestra meta es tu bienestar.' },
       contact: { eyebrow: 'Contacto', title: '¿Listo para contactarnos?', address: 'Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Piso 11, oficinas 1101-1102, Cuenca, Ecuador', formName: 'Nombre', formPhone: 'Teléfono', formEmail: 'Correo electrónico', formMessage: 'Mensaje', formSubmit: 'Contáctanos', note: 'Se abrirá tu cliente de correo.' },
       footer: { rights: 'Todos los derechos reservados.' },
@@ -275,8 +278,8 @@
           { title: 'Family Law', summary: 'Divorce, alimony, adoption and family agreements, handled with a human, confidential approach.', items: ['Divorce & Alimony', 'Adoption & Parental Rights', 'Common-Law Unions & Family Agreements'], checklist: ['Marriage or civil union certificate', "Children's birth certificates, if any", 'Any prior agreements on alimony or custody'], related: 1 }
         ]
       },
-      team: { eyebrow: 'Team', title: 'Our team', intro: 'A team committed to excellence and to our clients’ trust.', founders: 'Founding Partners', partners: 'Partners', lawyers: 'Attorneys', roles: { abogado: 'Attorney', doctor: 'Doctor of Law', doctora: 'Doctor of Law', socio: 'Partner', socia: 'Partner' }, back: 'Back to team', areasLabel: 'Practice areas', bioIntro: 'is part of the team at', trajectoryLabel: 'Professional Background', present: 'Present', newPartner: 'New Partner', newLawyer: 'New Attorney', spotAvailable: 'Spot available', adminLabel: 'Administrative Team',
-        resume: { education: 'Education', university: 'University', postgrad: 'Postgraduate', specialties: 'Specialties', publications: 'Publications', teaching: 'Teaching', awards: 'Awards', memberships: 'Memberships' } },
+      team: { eyebrow: 'Team', title: 'Our team', intro: 'A team committed to excellence and to our clients’ trust.', founders: 'Founding Partners', partners: 'Partners', lawyers: 'Attorneys', roles: { abogado: 'Attorney', doctor: 'Doctor of Law', doctora: 'Doctor of Law', socio: 'Partner', socia: 'Partner' }, back: 'Back to team', areasLabel: 'Practice areas', bioIntro: 'is part of the team at', trajectoryLabel: 'Professional Background', present: 'Present', newPartner: 'New Partner', newLawyer: 'New Attorney', spotAvailable: 'Spot available', adminLabel: 'Administrative Team', cvDownload: 'Download CV', backToProfile: 'Back to profile',
+        resume: { education: 'Education', university: 'University', postgrad: 'Postgraduate', specialties: 'Specialties', publications: 'Publications', teaching: 'Teaching', awards: 'Awards', memberships: 'Memberships', profile: 'Profile' } },
       motivation: { eyebrow: 'Our motivation', text: 'Driven by constant study of current legislation, we believe that rights must be respected in Ecuador, and that violating them is a transgression that cannot be justified under any circumstance. Our goal is your wellbeing.' },
       contact: { eyebrow: 'Contact', title: 'Ready to get in touch?', address: 'Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Piso 11, offices 1101-1102, Cuenca, Ecuador', formName: 'Name', formPhone: 'Phone', formEmail: 'Email', formMessage: 'Message', formSubmit: 'Contact Us', note: 'This will open your email client.' },
       footer: { rights: 'All rights reserved.' },
@@ -393,6 +396,7 @@
     lang: 'es',
     page: 'inicio',
     selectedMember: null,
+    cvView: null,
     heroSlide: 0,
     formName: '',
     formEmail: '',
@@ -428,6 +432,7 @@
     transitionTo(() => {
       state.page = page;
       state.selectedMember = null;
+      state.cvView = null;
       window.location.hash = page;
       window.scrollTo({ top: 0, behavior: 'auto' });
     });
@@ -487,7 +492,7 @@
             <span class="cta-link" data-goto="nosotros">${esc(T.home.firmCta)} →</span>
           </div>
           <div class="split-img corner-frame">
-            <div class="photo-box"><img src="img/nosotros.webp" alt="" loading="lazy"></div>
+            <div class="photo-box"><img src="img/equipo-grupo.webp" alt="" loading="lazy"></div>
           </div>
         </div>
       </section>
@@ -502,7 +507,7 @@
       <section class="page-section">
         <div class="split-row reverse reveal">
           <div class="split-img corner-frame">
-            <div class="photo-box"><img src="img/equipo-grupo.webp" alt="Equipo de Vignolo Barzallo Estudio Jurídico" loading="lazy"></div>
+            <div class="photo-box"><img src="img/nosotros.webp" alt="Equipo de Vignolo Barzallo Estudio Jurídico" loading="lazy"></div>
           </div>
           <div class="split-text">
             <div class="eyebrow">${esc(T.home.teamEyebrow)}</div>
@@ -597,14 +602,14 @@
       <div class="about-intro reveal">
         <div class="split-text"><p class="body-text drop-cap" style="font-size:17px;line-height:1.9">${esc(T.nosotros.intro)}</p></div>
         <div class="split-img corner-frame">
-          <div class="photo-box placeholder">${photoIcon()}</div>
+          <div class="photo-box"><img src="img/nosotros-logo-pared.webp" alt="Vignolo Barzallo Estudio Jurídico" loading="lazy"></div>
         </div>
       </div>
 
       <div class="about-body">
         <div class="about-vm reveal">
-          <div class="split-img corner-frame">
-            <div class="photo-box placeholder">${photoIcon()}</div>
+          <div class="split-img corner-frame" style="aspect-ratio:3/4">
+            <div class="photo-box"><img src="img/nosotros-logo-oficina.webp" alt="Vignolo Barzallo Estudio Jurídico" loading="lazy"></div>
           </div>
           <div class="vm-col">
             <div><div class="label">${esc(T.nosotros.visionLabel)}</div><p>${esc(T.nosotros.vision)}</p></div>
@@ -726,13 +731,63 @@
     return `<div class="resume-accordion">${sections.map((s, i) => accordionSection(s.title, s.body, i === 0)).join('')}</div>`;
   }
 
+  // Documento de CV: mismo layout para todos los abogados, poblado con
+  // los datos de teamMembers[key]. Pensado para verse bien en pantalla
+  // y para imprimirse/guardarse como PDF vía window.print() (ver @media
+  // print en style.css).
+  function renderCVDocument(key) {
+    const T = t();
+    const m = teamMembers[key];
+    if (!m) return '';
+    const roleLabel = m.roleKey ? T.team.roles[m.roleKey] : '';
+    const R = m.resume || {};
+    const edu = R.educacion || {};
+    const Tr = T.team.resume;
+    const eduBody = [
+      accordionSubgroup(Tr.university, edu.universitaria),
+      accordionSubgroup(Tr.postgrad, edu.postgrados),
+      accordionSubgroup(Tr.specialties, edu.especialidades)
+    ].join('');
+    const sections = [
+      { title: Tr.education, body: eduBody.trim() ? eduBody : '' },
+      { title: Tr.publications, body: accordionList(R.publicaciones) },
+      { title: Tr.teaching, body: accordionList(R.docencia) },
+      { title: Tr.awards, body: accordionList(R.galardones) },
+      { title: Tr.memberships, body: accordionList(R.membresias) }
+    ].filter(s => s.body);
+
+    return `
+      <div class="cv-toolbar no-print">
+        <button type="button" class="team-back" data-cv-back>← ${esc(T.team.backToProfile)}</button>
+        <button type="button" class="pill-btn" data-cv-print>${esc(T.team.cvDownload)}</button>
+      </div>
+      <div class="cv-doc">
+        <div class="cv-doc-header">
+          <img class="cv-doc-logo" src="img/logo.webp" alt="Vignolo Barzallo">
+          <div class="cv-doc-id">
+            <h1>${esc(m.name)}</h1>
+            <div class="cv-doc-role">${esc(roleLabel)}${m.areas ? ' · ' + esc(m.areas) : ''}</div>
+          </div>
+        </div>
+        <div class="cv-doc-contact">info@vignolobarzallo.com &nbsp;·&nbsp; Cuenca, Ecuador &nbsp;·&nbsp; www.vignolobarzallo.com</div>
+        ${m.bio ? `<div class="cv-doc-section"><h2>${esc(Tr.profile)}</h2><p>${esc(m.bio)}</p></div>` : ''}
+        <div class="cv-doc-section">
+          <h2>${esc(T.team.trajectoryLabel)}</h2>
+          <ul class="accordion-list"><li>${esc(roleLabel)}, Vignolo Barzallo — ${esc(T.team.present)}</li></ul>
+        </div>
+        ${sections.map(s => `<div class="cv-doc-section"><h2>${esc(s.title)}</h2>${s.body}</div>`).join('')}
+        <div class="cv-doc-footer">Vignolo Barzallo Estudio Jurídico — Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Cuenca, Ecuador</div>
+      </div>
+    `;
+  }
+
   function renderEquipoPage() {
     const T = t();
+    if (state.cvView) return renderCVDocument(state.cvView);
     if (state.selectedMember) {
       const m = teamMembers[state.selectedMember];
       const roleLabel = m.roleKey ? T.team.roles[m.roleKey] : '';
       const linkedinHref = 'https://www.linkedin.com/search/results/all/?keywords=' + encodeURIComponent(m.name + ' Vignolo Barzallo');
-      const cvHref = 'mailto:info@vignolobarzallo.com?subject=' + encodeURIComponent('Solicitud de CV - ' + m.name);
       return `
         <button class="team-back" data-back-to-team>← ${esc(T.team.back)}</button>
         <div class="team-detail">
@@ -747,9 +802,9 @@
               <a class="social-circle dark-bg" href="mailto:info@vignolobarzallo.com" title="Correo">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
               </a>
-              <a class="social-circle dark-bg" href="${cvHref}" title="Curriculum">
+              <button type="button" class="social-circle dark-bg" data-view-cv="${state.selectedMember}" title="${esc(T.team.cvDownload)}">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"></path><path d="M14 2v6h6"></path><path d="M9 15h6M9 18h4"></path></svg>
-              </a>
+              </button>
             </div>
           </div>
           <div class="team-detail-body">
@@ -936,7 +991,21 @@
       });
     });
     pageContentEl.querySelectorAll('[data-back-to-team]').forEach(elx => {
-      elx.addEventListener('click', () => transitionTo(() => { state.selectedMember = null; }));
+      elx.addEventListener('click', () => transitionTo(() => { state.selectedMember = null; state.cvView = null; }));
+    });
+    pageContentEl.querySelectorAll('[data-view-cv]').forEach(elx => {
+      elx.addEventListener('click', () => {
+        transitionTo(() => {
+          state.cvView = elx.getAttribute('data-view-cv');
+          window.scrollTo({ top: 0, behavior: 'auto' });
+        });
+      });
+    });
+    pageContentEl.querySelectorAll('[data-cv-back]').forEach(elx => {
+      elx.addEventListener('click', () => transitionTo(() => { state.cvView = null; }));
+    });
+    pageContentEl.querySelectorAll('[data-cv-print]').forEach(elx => {
+      elx.addEventListener('click', () => window.print());
     });
     pageContentEl.querySelectorAll('[data-accordion-toggle]').forEach(elx => {
       elx.addEventListener('click', () => elx.closest('.accordion-item').classList.toggle('open'));
@@ -1268,6 +1337,7 @@
         transitionTo(() => {
           state.page = p;
           state.selectedMember = null;
+          state.cvView = null;
           window.scrollTo({ top: 0, behavior: 'auto' });
         });
         return;
