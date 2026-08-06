@@ -561,16 +561,16 @@
         </a>
       </div>
       <div class="info-row">
-        <a href="https://wa.me/593998443338" target="_blank" rel="noopener" style="display:flex;gap:14px;align-items:center">
+        <a href="https://wa.me/593988681116" target="_blank" rel="noopener" style="display:flex;gap:14px;align-items:center">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#AFB800" stroke-width="1.8" style="flex-shrink:0"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 3a2 2 0 0 1-.5 2.1L8 10.1a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c1 .3 2 .5 3 .7a2 2 0 0 1 1.6 2Z"></path></svg>
-          <span>+593 99 844 3338 (WhatsApp)</span>
+          <span>+593 98 868 1116 (WhatsApp)</span>
         </a>
       </div>
       <div class="social-row">
         <a class="social-circle ${onDark ? 'on-navy' : 'dark-bg'}" href="https://instagram.com/vignolobarzallo" target="_blank" rel="noopener" title="Instagram">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" fill="#fff" stroke="none"></circle></svg>
         </a>
-        <a class="social-circle ${onDark ? 'on-navy' : 'dark-bg'}" href="https://wa.me/593998443338" target="_blank" rel="noopener" title="WhatsApp">
+        <a class="social-circle ${onDark ? 'on-navy' : 'dark-bg'}" href="https://wa.me/593988681116" target="_blank" rel="noopener" title="WhatsApp">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="#fff"><path d="M12.04 2c-5.5 0-9.96 4.46-9.96 9.96 0 1.76.46 3.48 1.34 4.99L2 22l5.2-1.36a9.94 9.94 0 0 0 4.84 1.24h.01c5.5 0 9.96-4.46 9.96-9.96S17.54 2 12.04 2Zm5.8 14.14c-.24.68-1.4 1.3-1.94 1.38-.5.08-1.1.11-1.78-.11-.41-.13-.93-.3-1.6-.6-2.82-1.22-4.65-4.06-4.79-4.25-.14-.19-1.15-1.53-1.15-2.92 0-1.39.73-2.07.99-2.35.26-.28.57-.35.76-.35h.55c.18 0 .42-.07.65.5.24.58.81 2 .88 2.14.07.14.12.31.02.5-.1.19-.15.31-.3.48-.14.17-.3.38-.43.51-.14.14-.29.29-.13.57.16.28.71 1.17 1.53 1.9 1.05.94 1.94 1.23 2.22 1.37.28.14.44.12.6-.07.17-.19.71-.83.9-1.11.19-.28.38-.24.63-.14.26.1 1.65.78 1.93.92.28.14.47.21.54.33.07.12.07.68-.17 1.36Z"></path></svg>
         </a>
         <a class="social-circle ${onDark ? 'on-navy' : 'dark-bg'}" href="https://www.linkedin.com/company/vignolo-barzallo-abogados/about/" target="_blank" rel="noopener" title="LinkedIn">
@@ -1150,7 +1150,7 @@
         </div>` : ''}
         <div class="quiz-result-actions">
           <a class="primary" href="#areas" data-quiz-goto-areas>${esc(Q.viewArea)}</a>
-          <a href="https://wa.me/593998443338?text=${waText}" target="_blank" rel="noopener">${esc(Q.whatsapp)}</a>
+          <a href="https://wa.me/593988681116?text=${waText}" target="_blank" rel="noopener">${esc(Q.whatsapp)}</a>
           <a href="#contacto" data-quiz-goto-contact>${esc(Q.contact)}</a>
         </div>
         <p class="quiz-confidential-note">${esc(Q.confidentialNote)}</p>
