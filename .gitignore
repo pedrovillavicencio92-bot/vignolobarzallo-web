@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+._*
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Dependencias (por si más adelante se usa alguna herramienta)
+node_modules/
+
+# Archivos temporales
+*.log
+tmp/
