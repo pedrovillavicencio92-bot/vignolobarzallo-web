@@ -1,0 +1,11 @@
+# El sitio anterior en este dominio tenía páginas reales (/equipo, /nosotros...).
+# El sitio actual es de una sola página con rutas por hash (#equipo, #nosotros...).
+# Estas redirecciones 301 evitan que esos enlaces viejos —ya indexados en Google
+# o guardados en algún lado— muestren un 404, y le indican a los buscadores que
+# el contenido se movió a la nueva ubicación.
+/equipo             /#equipo    301
+/nosotros           /#nosotros  301
+/areas              /#areas     301
+/areas-de-practica  /#areas     301
+/contacto           /#contacto  301
+/inicio             /           301
