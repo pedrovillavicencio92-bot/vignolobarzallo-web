@@ -111,16 +111,15 @@
       resume: {
         educacion: {
           universitaria: ['Abogado, Universidad del Azuay'],
-          postgrados: ['Candidato a Máster en Asesoría Jurídica de Empresas, Universidad Internacional de la Rioja (UNIR)', 'Diplomado en Gestión de Patrimonio, Escuela de Posgrado de Salamanca (2025)'],
-          especialidades: ['Certificación en Inglés, Cambridge FCE (2025)', 'Certificación en Liderazgo y Habilidades Blandas, Universidad de Miami (2026)']
+          postgrados: ['Candidato a Máster en Asesoría Jurídica de Empresas, Universidad Internacional de la Rioja (UNIR)', 'Diplomado en Gestión de Patrimonio, Escuela de Posgrado de Salamanca (2025)']
         }
       }
     },
     pedrovillavicencio: {
       name: 'Pedro Francisco Villavicencio Arévalo', roleKey: 'abogado',
       credential: 'Candidato a Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
-      areas: 'Litigios y Resolución de Conflictos', photo: 'team-pedrovillavicencio.webp',
-      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca, y candidato a Máster en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se centra en la resolución estratégica de conflictos y la asesoría jurídica integral, con especial atención al manejo de procesos judiciales y negociaciones extrajudiciales. Fue reconocido por distinción académica en 2024 y 2026, y participó como externo de la Cancillería del Ecuador en el marco de la XXIX Cumbre Iberoamericana de Jefas y Jefes de Estado, celebrada en Cuenca.',
+      areas: 'Derecho Civil y Procesal', photo: 'team-pedrovillavicencio.webp',
+      bio: 'Abogado por la Universidad Politécnica Salesiana, sede Cuenca, y candidato a Máster en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se centra en el Derecho Civil y Procesal, con un enfoque cercano y resolutivo: escucha con atención cada caso, traduce la complejidad legal en decisiones claras y acompaña a sus clientes con firmeza en procesos judiciales y negociaciones extrajudiciales hasta obtener resultados concretos.',
       resume: {
         educacion: {
           universitaria: ['Abogado, Universidad Politécnica Salesiana, sede Cuenca'],
@@ -133,10 +132,9 @@
       name: 'Pedro Jose Zamora Barzallo', roleKey: 'abogado',
       credential: 'Abogado, Universidad de Especialidades Espíritu Santo',
       areas: 'Derecho Civil, Laboral, Administrativo y Corporativo', photo: 'team-pedrozamora.webp',
-      bio: 'Abogado por la Universidad de Especialidades Espíritu Santo (UEES). Su práctica abarca el patrocinio y defensa en procesos civiles, laborales, administrativos y corporativos, con experiencia en litigación bajo el marco del COGEP, asesoría preventiva a empresas, constitución y reestructuración de compañías, y gestión de gobierno corporativo. Se incorporó al Estudio Jurídico Vignolo Barzallo en 2020 como asistente legal y, desde julio de 2025, ejerce como abogado.',
+      bio: 'Abogado por la Universidad de Especialidades Espíritu Santo (UEES), con inglés y francés a nivel intermedio. Su práctica abarca el patrocinio y defensa en procesos civiles, laborales, administrativos y corporativos, con experiencia en litigación bajo el marco del COGEP, asesoría preventiva a empresas, constitución y reestructuración de compañías, y gestión de gobierno corporativo. Se incorporó al Estudio Jurídico Vignolo Barzallo en 2020 como asistente legal y, desde julio de 2025, ejerce como abogado.',
       resume: {
-        educacion: { universitaria: ['Abogado, Universidad de Especialidades Espíritu Santo (UEES)'] },
-        especialidades: ['Inglés nivel B1 (oral y escrito)', 'Francés nivel A2 (oral y escrito)']
+        educacion: { universitaria: ['Abogado, Universidad de Especialidades Espíritu Santo (UEES)'] }
       }
     }
   };
@@ -366,8 +364,6 @@
     8: { src: 'img/area-familia.webp' }
   };
 
-  const NOSOTROS_BANNER = { src: 'https://images.unsplash.com/photo-1699495732534-02b9e520711d?fm=jpg&q=80&w=1600&auto=format&fit=crop', credit: 'Sergio Arteaga', href: 'https://unsplash.com/@saarteaga' };
-
   const UNSPLASH_UTM = '?utm_source=vignolobarzallo&utm_medium=referral';
 
   // ============================================================
@@ -594,7 +590,7 @@
     const T = t();
     return `
       <div class="about-banner">
-        <img src="${NOSOTROS_BANNER.src}" alt="">
+        <img src="img/inicio-edificio.webp" alt="">
         <div class="scrim"></div>
         <h1>${esc(T.nosotros.eyebrow)}</h1>
       </div>
@@ -602,13 +598,13 @@
       <div class="about-intro reveal">
         <div class="split-text"><p class="body-text drop-cap" style="font-size:17px;line-height:1.9">${esc(T.nosotros.intro)}</p></div>
         <div class="split-img corner-frame">
-          <div class="photo-box"><img src="img/nosotros-logo-pared.webp" alt="Vignolo Barzallo Estudio Jurídico" loading="lazy"></div>
+          <div class="photo-box placeholder">${photoIcon()}</div>
         </div>
       </div>
 
       <div class="about-body">
         <div class="about-vm reveal">
-          <div class="split-img corner-frame" style="aspect-ratio:3/4">
+          <div class="split-img corner-frame" style="aspect-ratio:3/4;flex:0 1 280px;min-width:220px">
             <div class="photo-box"><img src="img/nosotros-logo-oficina.webp" alt="Vignolo Barzallo Estudio Jurídico" loading="lazy"></div>
           </div>
           <div class="vm-col">

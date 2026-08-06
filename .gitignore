@@ -13,3 +13,8 @@ node_modules/
 # Archivos temporales
 *.log
 tmp/
+
+# Servidor local usado solo dentro de este entorno de Claude Code
+# (el equipo debe usar "python3 -m http.server 8090", ver README)
+serve.cjs
+.claude/
