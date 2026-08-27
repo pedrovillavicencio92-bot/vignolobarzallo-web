@@ -111,11 +111,11 @@
       }
     },
     pedro: {
-      name: 'Pedro José Córdova López', roleKey: 'socio',
+      name: 'Pedro José Córdova López', roleKey: 'asociado',
       email: 'pcordova@vignolobarzallo.com',
       credential: 'Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
-      areas: 'Litigios y Resolución de Conflictos', photo: 'team-pedro.webp',
-      bio: 'Abogado y Licenciado en Ciencias Políticas por la Universidad de Cuenca, con Especialidad Superior y Máster Profesional en Derecho Procesal por la Universidad Andina Simón Bolívar. Su práctica se enfoca en la planificación de litigios complejos y la asesoría a compañías nacionales e internacionales en negociaciones y procesos judiciales. Ha ejercido tanto en el sector público como privado, con experiencia en la Asamblea Nacional, el Ministerio del Trabajo y estudios jurídicos en Quito. Actualmente es profesor invitado en la carrera de Derecho de la UTPL y cursa la Maestría en Derecho Administrativo con mención en Contratación Pública en la Universidad de Especialidades Espíritu Santo.',
+      areas: 'Derecho Civil y Litigios', photo: 'team-pedro.webp',
+      bio: 'Abogado y Licenciado en Ciencias Políticas por la Universidad de Cuenca, con Especialidad Superior y Máster Profesional en Derecho Procesal por la Universidad Andina Simón Bolívar, y mediador calificado por el Consejo de la Judicatura. Su carrera combina experiencia en el sector público y privado: fue Inspector de Trabajo y Asesor en el Ministerio del Trabajo del Azuay, Secretario y Prosecretario Relator de la Comisión Especializada Permanente de los Derechos de los Trabajadores y la Seguridad Social en la Asamblea Nacional, y Procurador Judicial de Mutualista Pichincha. Antes de incorporarse a Vignolo Barzallo fue socio de los estudios jurídicos Abocacía y Altac Abogados, dedicado al área Civil. Es también docente y abogado patrocinador del Consultorio Jurídico Gratuito de la Universidad Técnica Particular de Loja (UTPL).',
       resume: {
         educacion: {
           universitaria: ['Abogado y Licenciado en Ciencias Políticas, Universidad de Cuenca'],
@@ -125,11 +125,19 @@
             'Candidato a Máster en Derecho Administrativo con mención en Contratación Pública, Universidad de Especialidades Espíritu Santo (UEES)'
           ],
           especialidades: [
+            'Mediador, calificado por el Consejo de la Judicatura',
             'Mediador, Universidad Hemisferios / CEMEPA',
             'Oficial de Cumplimiento, UAFE'
           ]
         },
-        docencia: ['Profesor invitado, carrera de Derecho, Universidad Técnica Particular de Loja (UTPL)']
+        docencia: ['Docente y Abogado Patrocinador, Consultorio Jurídico Gratuito, Universidad Técnica Particular de Loja (UTPL)'],
+        experiencia: [
+          'Inspector de Trabajo del Azuay y Asesor, Ministerio del Trabajo',
+          'Secretario y Prosecretario Relator, Comisión Especializada Permanente de los Derechos de los Trabajadores y la Seguridad Social, Asamblea Nacional',
+          'Procurador Judicial, Mutualista Pichincha',
+          'Socio, Estudio Jurídico Abocacía (área Civil)',
+          'Socio, Estudio Jurídico Altac Abogados (área Civil)'
+        ]
       }
     },
     paulromo: {
@@ -247,7 +255,7 @@
           { title: 'Derecho de Familia', summary: 'Divorcios, régimen de alimentos, adopciones y convenios familiares, con un enfoque humano y confidencial.', items: ['Divorcio y Régimen de Alimentos', 'Adopciones y Patria Potestad', 'Uniones de Hecho y Convenios Familiares'], checklist: ['Partida de matrimonio o unión de hecho', 'Partidas de nacimiento de los hijos, si los hay', 'Acuerdos previos sobre alimentos o tenencia'], related: 1 }
         ]
       },
-      team: { eyebrow: 'Equipo', title: 'Nuestro equipo', intro: 'Somos en total 12 abogados comprometidos con la excelencia y la confianza de nuestros clientes.', founders: 'Socios Fundadores', partners: 'Socios', lawyers: 'Abogados', roles: { abogado: 'Abogado', doctor: 'Doctor', doctora: 'Doctora', socio: 'Socio', socia: 'Socia' }, back: 'Volver al equipo', areasLabel: 'Áreas de práctica', bioIntro: 'forma parte del equipo de', trajectoryLabel: 'Trayectoria Profesional', present: 'Actualidad', newPartner: 'Nuevo Socio', newLawyer: 'Nuevo Abogado', spotAvailable: 'Espacio disponible', adminLabel: 'Equipo Administrativo', cvDownload: 'Descargar CV', backToProfile: 'Volver al perfil',
+      team: { eyebrow: 'Equipo', title: 'Nuestro equipo', intro: 'Somos en total 12 abogados comprometidos con la excelencia y la confianza de nuestros clientes.', founders: 'Socios Fundadores', partners: 'Socios', lawyers: 'Abogados', roles: { abogado: 'Abogado', doctor: 'Doctor', doctora: 'Doctora', socio: 'Socio', socia: 'Socia', asociado: 'Asociado' }, back: 'Volver al equipo', areasLabel: 'Áreas de práctica', bioIntro: 'forma parte del equipo de', trajectoryLabel: 'Trayectoria Profesional', present: 'Actualidad', newPartner: 'Nuevo Socio', newLawyer: 'Nuevo Abogado', spotAvailable: 'Espacio disponible', adminLabel: 'Equipo Administrativo', cvDownload: 'Descargar CV', backToProfile: 'Volver al perfil',
         resume: { education: 'Educación', university: 'Universitaria', postgrad: 'Postgrados', specialties: 'Especialidades', publications: 'Publicaciones', teaching: 'Docencia', awards: 'Galardones', memberships: 'Membresías', profile: 'Perfil' } },
       motivation: { eyebrow: 'Nuestra motivación', text: 'Motivados por el constante estudio y preocupación de la normativa legal vigente, consideramos que en el Ecuador se deben respetar los derechos y que su vulneración es una transgresión que no debe ser permitida bajo ninguna justificación. Nuestra meta es tu bienestar.' },
       contact: { eyebrow: 'Contacto', title: '¿Listo para contactarnos?', address: 'Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Piso 11, oficinas 1101-1102, Cuenca, Ecuador', formName: 'Nombre', formPhone: 'Teléfono', formEmail: 'Correo electrónico', formMessage: 'Mensaje', formSubmit: 'Contáctanos', note: 'Se abrirá tu cliente de correo.' },
@@ -340,7 +348,7 @@
           { title: 'Family Law', summary: 'Divorce, alimony, adoption and family agreements, handled with a human, confidential approach.', items: ['Divorce & Alimony', 'Adoption & Parental Rights', 'Common-Law Unions & Family Agreements'], checklist: ['Marriage or civil union certificate', "Children's birth certificates, if any", 'Any prior agreements on alimony or custody'], related: 1 }
         ]
       },
-      team: { eyebrow: 'Team', title: 'Our team', intro: 'A team committed to excellence and to our clients’ trust.', founders: 'Founding Partners', partners: 'Partners', lawyers: 'Attorneys', roles: { abogado: 'Attorney', doctor: 'Doctor of Law', doctora: 'Doctor of Law', socio: 'Partner', socia: 'Partner' }, back: 'Back to team', areasLabel: 'Practice areas', bioIntro: 'is part of the team at', trajectoryLabel: 'Professional Background', present: 'Present', newPartner: 'New Partner', newLawyer: 'New Attorney', spotAvailable: 'Spot available', adminLabel: 'Administrative Team', cvDownload: 'Download CV', backToProfile: 'Back to profile',
+      team: { eyebrow: 'Team', title: 'Our team', intro: 'A team committed to excellence and to our clients’ trust.', founders: 'Founding Partners', partners: 'Partners', lawyers: 'Attorneys', roles: { abogado: 'Attorney', doctor: 'Doctor of Law', doctora: 'Doctor of Law', socio: 'Partner', socia: 'Partner', asociado: 'Associate' }, back: 'Back to team', areasLabel: 'Practice areas', bioIntro: 'is part of the team at', trajectoryLabel: 'Professional Background', present: 'Present', newPartner: 'New Partner', newLawyer: 'New Attorney', spotAvailable: 'Spot available', adminLabel: 'Administrative Team', cvDownload: 'Download CV', backToProfile: 'Back to profile',
         resume: { education: 'Education', university: 'University', postgrad: 'Postgraduate', specialties: 'Specialties', publications: 'Publications', teaching: 'Teaching', awards: 'Awards', memberships: 'Memberships', profile: 'Profile' } },
       motivation: { eyebrow: 'Our motivation', text: 'Driven by constant study of current legislation, we believe that rights must be respected in Ecuador, and that violating them is a transgression that cannot be justified under any circumstance. Our goal is your wellbeing.' },
       contact: { eyebrow: 'Contact', title: 'Ready to get in touch?', address: 'Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Piso 11, offices 1101-1102, Cuenca, Ecuador', formName: 'Name', formPhone: 'Phone', formEmail: 'Email', formMessage: 'Message', formSubmit: 'Contact Us', note: 'This will open your email client.' },
@@ -888,8 +896,8 @@
     }
 
     const founders = ['alex', 'mariabarzallo'];
-    const partners = ['giancarlo', 'mariaaugusta', 'eugenio', 'gabriela', 'pedro', 'veronica'];
-    const lawyers = ['paulromo', 'pedrovillavicencio', 'pedrozamora'];
+    const partners = ['giancarlo', 'mariaaugusta', 'eugenio', 'gabriela', 'veronica'];
+    const lawyers = ['pedro', 'paulromo', 'pedrovillavicencio', 'pedrozamora'];
 
     return `
       <div class="team-header">
