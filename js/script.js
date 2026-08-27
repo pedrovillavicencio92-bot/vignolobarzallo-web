@@ -111,7 +111,7 @@
       }
     },
     pedro: {
-      name: 'Pedro José Córdova López', roleKey: 'asociado',
+      name: 'Pedro José Córdova López', roleKey: 'socio',
       email: 'pcordova@vignolobarzallo.com',
       credential: 'Máster en Derecho Procesal, Universidad Andina Simón Bolívar',
       areas: 'Derecho Civil y Litigios', photo: 'team-pedro.webp',
@@ -896,8 +896,8 @@
     }
 
     const founders = ['alex', 'mariabarzallo'];
-    const partners = ['giancarlo', 'mariaaugusta', 'eugenio', 'gabriela', 'veronica'];
-    const lawyers = ['pedro', 'paulromo', 'pedrovillavicencio', 'pedrozamora'];
+    const partners = ['giancarlo', 'mariaaugusta', 'eugenio', 'gabriela', 'pedro', 'veronica'];
+    const lawyers = ['paulromo', 'pedrovillavicencio', 'pedrozamora'];
 
     return `
       <div class="team-header">
