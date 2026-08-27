@@ -20,7 +20,12 @@
         },
         docencia: ['Docente de Derecho Laboral, Seguridad Social y Derecho Civil de Bienes, Universidad de Cuenca'],
         publicaciones: ['Análisis del Derecho Laboral Ecuatoriano — Teoría, Doctrina y Jurisprudencia, Editorial Carpol, 2012'],
-        membresias: ['Vicepresidenta, Colegio de Abogados del Azuay (2016-2018)', 'Vicepresidenta, Cámara de la Pequeña Industria del Azuay (2020-2026)']
+        membresias: ['Vicepresidenta, Colegio de Abogados del Azuay (2016-2018)', 'Vicepresidenta, Cámara de la Pequeña Industria del Azuay (2020-2026)'],
+        experiencia: [
+          'Jefa del Departamento Legal, Banco Continental (Julio 1994 - Marzo 1997)',
+          'Jueza Suplente, Juzgado Sexto de lo Penal, Corte Superior de Justicia del Azuay (1997-2000)',
+          'Coordinadora Administrativa Financiera y Abogada, Consejo de Programación de Obras de Emergencia — COPOE (Agosto 2000 - Agosto 2003)'
+        ]
       }
     },
     giancarlo: {
@@ -35,7 +40,12 @@
           postgrados: ['Máster en Derecho Penal, Universidad del Azuay'],
           especialidades: ['Mediador, Centro de Arbitraje y Mediación de las Cámaras de Producción del Azuay']
         },
-        docencia: ['Profesor Ad-honórem, Maestría en Psicología Forense y Peritaje Psicológico, Pontificia Universidad Católica del Ecuador']
+        docencia: ['Profesor Ad-honórem, Maestría en Psicología Forense y Peritaje Psicológico, Pontificia Universidad Católica del Ecuador'],
+        experiencia: [
+          'Asistente, Unidad de Flagrancia, Fiscalía General del Estado',
+          'Asistente, Departamento Legal, Contraloría General del Estado',
+          'Abogado tutor, Consultorio Jurídico de la Universidad del Azuay (materia Penal y de Familia)'
+        ]
       }
     },
     mariaaugusta: {
@@ -49,7 +59,11 @@
           universitaria: ['Abogada de los Tribunales de la República, Universidad del Azuay'],
           postgrados: ['Máster en Derecho de la Empresa, Asesoría Mercantil, Laboral y Fiscal, Universidad de Valencia (España)']
         },
-        membresias: ['Delegada principal, Asamblea Provincial y Nacional de Abogados del Ecuador (2016-2018)', 'Socia fundadora, Club Rotario Santa Ana de los Ríos de Cuenca']
+        membresias: ['Delegada principal, Asamblea Provincial y Nacional de Abogados del Ecuador (2016-2018)', 'Socia fundadora, Club Rotario Santa Ana de los Ríos de Cuenca', 'Gerente General, MALIS S.A.S. (subsidiaria en Ecuador), actualidad'],
+        experiencia: [
+          'Asesora Jurídica, Gobernación del Azuay e Intendencia de Policía (2021)',
+          'Prácticas pre-profesionales, Defensoría Pública (área social, familia y laboral)'
+        ]
       }
     },
     eugenio: {
@@ -68,7 +82,12 @@
           'Análisis de la Reforma Tributaria Ecuador: Ley Orgánica para el Equilibrio de las Finanzas Públicas, Boletín legal de Gottifredi Pozo, 2016',
           'Hablemos de paraísos fiscales, los Panamá Papers y los Estados offshore, Boletín legal de Gottifredi Pozo, 2016'
         ],
-        membresias: ['Asesor Jurídico Tributario y Empresarial, Cámara de la Pequeña Industria del Azuay (CAPIA), desde 2019']
+        membresias: ['Asesor Jurídico Tributario y Empresarial, Cámara de la Pequeña Industria del Azuay (CAPIA), desde 2019'],
+        experiencia: [
+          'Abogado Asociado Senior, Gottifredi Pozo Abogados (2016-2018)',
+          'Director Ejecutivo y Abogado Asociado, Moreno Di Donato — Quito, Cuenca y Manta (2013-2016)',
+          'Gerente Comercial, LAC Línea Aérea Cuencana (2013-2014)'
+        ]
       }
     },
     gabriela: {
@@ -84,7 +103,11 @@
           especialidades: ['Gestión de la Protección de Datos Personales – DPO, Universidad Andina Simón Bolívar', 'Delegada de Protección de Datos Personales, Universidad Central del Ecuador', 'Mediadora, calificada por el Consejo de la Judicatura']
         },
         docencia: ['Docente, Maestría en Derecho Digital mención Innovación Legal y Entorno Digital, Universidad de los Hemisferios'],
-        membresias: ['Socia fundadora, Altac Legal Estudio Jurídico', 'Socia fundadora, Abocacía Estudio Jurídico']
+        membresias: ['Socia fundadora, Altac Legal Estudio Jurídico', 'Socia fundadora, Abocacía Estudio Jurídico'],
+        experiencia: [
+          'Inspectora de Trabajo, Ministerio del Trabajo — Regional 6',
+          'Secretaria Abogada Externa del IESS, Dirección Provincial del Azuay (gestión coactiva)'
+        ]
       }
     },
     pedro: {
@@ -119,7 +142,12 @@
         educacion: {
           universitaria: ['Abogado, Universidad del Azuay'],
           postgrados: ['Candidato a Máster en Asesoría Jurídica de Empresas, Universidad Internacional de la Rioja (UNIR)', 'Diplomado en Gestión de Patrimonio, Escuela de Posgrado de Salamanca (2025)']
-        }
+        },
+        experiencia: [
+          'Abogado Asociado, Brik Studio Legal (2025)',
+          'Asistente Legal, Cordero Moreno y Corral (Julio 2022 - Febrero 2023)',
+          'Asistente Legal, Cordero Martinez (Marzo 2022 - Junio 2022)'
+        ]
       }
     },
     pedrovillavicencio: {
@@ -143,7 +171,34 @@
       areas: 'Derecho Civil, Laboral, Administrativo y Corporativo', photo: 'team-pedrozamora.webp',
       bio: 'Abogado por la Universidad de Especialidades Espíritu Santo (UEES), con inglés y francés a nivel intermedio. Su práctica abarca el patrocinio y defensa en procesos civiles, laborales, administrativos y corporativos, con experiencia en litigación bajo el marco del COGEP, asesoría preventiva a empresas, constitución y reestructuración de compañías, y gestión de gobierno corporativo. Se incorporó al Estudio Jurídico Vignolo Barzallo en 2020 como asistente legal y, desde julio de 2025, ejerce como abogado.',
       resume: {
-        educacion: { universitaria: ['Abogado, Universidad de Especialidades Espíritu Santo (UEES)'] }
+        educacion: { universitaria: ['Abogado, Universidad de Especialidades Espíritu Santo (UEES)'] },
+        experiencia: [
+          'Asistente Legal, Estudio Jurídico Vignolo Barzallo (Agosto 2020 - Julio 2022)',
+          'Auxiliar Operativo en Comercio Exterior, Banco del Austro (Agosto 2018 - Abril 2019)'
+        ]
+      }
+    },
+    veronica: {
+      name: 'María Verónica Vázquez López', roleKey: 'socia',
+      credential: 'Máster en Asesoría Jurídica de Empresas, Universidad del Azuay',
+      areas: 'Derecho Societario, Notarial y Registral', photo: 'team-veronica.webp',
+      bio: 'Doctora en Jurisprudencia y Abogada de los Tribunales de la República por la Universidad de Cuenca, con Máster en Asesoría Jurídica de Empresas por la Universidad del Azuay y Diplomado en Derecho Constitucional y Derechos Fundamentales por la Universidad de Cuenca. Cuenta con una trayectoria de más de tres décadas en la Intendencia de Compañías de Cuenca, incluyendo su gestión como Intendente de Compañías (E), y se desempeñó como Registradora Mercantil del cantón Cuenca. Es mediadora acreditada por la Superintendencia de Compañías y docente de Derecho Comercial en la Universidad de Cuenca y en la Universidad Panamericana de Cuenca.',
+      resume: {
+        educacion: {
+          universitaria: ['Doctora en Jurisprudencia y Abogada de los Tribunales de la República, Universidad de Cuenca'],
+          postgrados: ['Máster en Asesoría Jurídica de Empresas, Universidad del Azuay', 'Diplomado en Derecho Constitucional y Derechos Fundamentales, Universidad de Cuenca'],
+          especialidades: ['Curso de Derecho Notarial y Registral, CANON Centro de Formación Técnica de Chile', 'Mediadora, Superintendencia de Compañías']
+        },
+        docencia: [
+          'Profesora de Derecho Comercial, Programa Universidad Empresarial, Universidad de Cuenca',
+          'Profesora de Derecho Comercial, Universidad Panamericana de Cuenca (UPAC)',
+          'Profesora, Curso de Certificación en Derecho Notarial, Universidad del Azuay y LEXONLINE'
+        ],
+        experiencia: [
+          'Especialista Jurídico, Intendencia de Compañías de Cuenca (37 años)',
+          'Intendente de Compañías de Cuenca (E)',
+          'Registradora Mercantil del cantón Cuenca (Mayo 2011 - Abril 2017)'
+        ]
       }
     }
   };
@@ -175,7 +230,7 @@
         missionLabel: 'Misión',
         mission: 'Creamos estrategias jurídicas personalizadas, priorizando siempre los intereses de nuestros clientes.'
       },
-      stats: { items: [{ n: '34+', l: 'Años de experiencia' }, { n: '11', l: 'Miembros del equipo' }, { n: '9', l: 'Áreas de práctica' }] },
+      stats: { items: [{ n: '34+', l: 'Años de experiencia' }, { n: '12', l: 'Miembros del equipo' }, { n: '9', l: 'Áreas de práctica' }] },
       areas: {
         eyebrow: 'Áreas de práctica',
         title: 'Un enfoque integral para cada necesidad legal',
@@ -192,7 +247,7 @@
           { title: 'Derecho de Familia', summary: 'Divorcios, régimen de alimentos, adopciones y convenios familiares, con un enfoque humano y confidencial.', items: ['Divorcio y Régimen de Alimentos', 'Adopciones y Patria Potestad', 'Uniones de Hecho y Convenios Familiares'], checklist: ['Partida de matrimonio o unión de hecho', 'Partidas de nacimiento de los hijos, si los hay', 'Acuerdos previos sobre alimentos o tenencia'], related: 1 }
         ]
       },
-      team: { eyebrow: 'Equipo', title: 'Nuestro equipo', intro: 'Somos en total 11 abogados comprometidos con la excelencia y la confianza de nuestros clientes.', founders: 'Socios Fundadores', partners: 'Socios', lawyers: 'Abogados', roles: { abogado: 'Abogado', doctor: 'Doctor', doctora: 'Doctora', socio: 'Socio', socia: 'Socia' }, back: 'Volver al equipo', areasLabel: 'Áreas de práctica', bioIntro: 'forma parte del equipo de', trajectoryLabel: 'Trayectoria Profesional', present: 'Actualidad', newPartner: 'Nuevo Socio', newLawyer: 'Nuevo Abogado', spotAvailable: 'Espacio disponible', adminLabel: 'Equipo Administrativo', cvDownload: 'Descargar CV', backToProfile: 'Volver al perfil',
+      team: { eyebrow: 'Equipo', title: 'Nuestro equipo', intro: 'Somos en total 12 abogados comprometidos con la excelencia y la confianza de nuestros clientes.', founders: 'Socios Fundadores', partners: 'Socios', lawyers: 'Abogados', roles: { abogado: 'Abogado', doctor: 'Doctor', doctora: 'Doctora', socio: 'Socio', socia: 'Socia' }, back: 'Volver al equipo', areasLabel: 'Áreas de práctica', bioIntro: 'forma parte del equipo de', trajectoryLabel: 'Trayectoria Profesional', present: 'Actualidad', newPartner: 'Nuevo Socio', newLawyer: 'Nuevo Abogado', spotAvailable: 'Espacio disponible', adminLabel: 'Equipo Administrativo', cvDownload: 'Descargar CV', backToProfile: 'Volver al perfil',
         resume: { education: 'Educación', university: 'Universitaria', postgrad: 'Postgrados', specialties: 'Especialidades', publications: 'Publicaciones', teaching: 'Docencia', awards: 'Galardones', memberships: 'Membresías', profile: 'Perfil' } },
       motivation: { eyebrow: 'Nuestra motivación', text: 'Motivados por el constante estudio y preocupación de la normativa legal vigente, consideramos que en el Ecuador se deben respetar los derechos y que su vulneración es una transgresión que no debe ser permitida bajo ninguna justificación. Nuestra meta es tu bienestar.' },
       contact: { eyebrow: 'Contacto', title: '¿Listo para contactarnos?', address: 'Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Piso 11, oficinas 1101-1102, Cuenca, Ecuador', formName: 'Nombre', formPhone: 'Teléfono', formEmail: 'Correo electrónico', formMessage: 'Mensaje', formSubmit: 'Contáctanos', note: 'Se abrirá tu cliente de correo.' },
@@ -268,7 +323,7 @@
         missionLabel: 'Mission',
         mission: 'We build tailored legal strategies that always put our clients’ interests first.'
       },
-      stats: { items: [{ n: '34+', l: 'Years of experience' }, { n: '11', l: 'Team members' }, { n: '9', l: 'Practice areas' }] },
+      stats: { items: [{ n: '34+', l: 'Years of experience' }, { n: '12', l: 'Team members' }, { n: '9', l: 'Practice areas' }] },
       areas: {
         eyebrow: 'Practice areas',
         title: 'A comprehensive approach for every legal need',
@@ -714,6 +769,16 @@
       </div>`;
   }
 
+  // Cargo actual en el estudio + cargos anteriores (resume.experiencia), en
+  // ese orden. Se usa tanto en el perfil como en el CV descargable, para
+  // que ambos muestren la misma trayectoria.
+  function trajectoryItems(m, roleLabel) {
+    const T = t().team;
+    const current = `${roleLabel}, Vignolo Barzallo — ${T.present}`;
+    const previous = (m.resume && m.resume.experiencia) || [];
+    return [current, ...previous];
+  }
+
   function resumeAccordion(resume) {
     if (!resume) return '';
     const T = t().team.resume;
@@ -775,7 +840,7 @@
         ${m.bio ? `<div class="cv-doc-section"><h2>${esc(Tr.profile)}</h2><p>${esc(m.bio)}</p></div>` : ''}
         <div class="cv-doc-section">
           <h2>${esc(T.team.trajectoryLabel)}</h2>
-          <ul class="accordion-list"><li>${esc(roleLabel)}, Vignolo Barzallo — ${esc(T.team.present)}</li></ul>
+          <ul class="accordion-list">${trajectoryItems(m, roleLabel).map(i => `<li>${esc(i)}</li>`).join('')}</ul>
         </div>
         ${sections.map(s => `<div class="cv-doc-section"><h2>${esc(s.title)}</h2>${s.body}</div>`).join('')}
         <div class="cv-doc-footer">Vignolo Barzallo Estudio Jurídico — Av. Florencia Astudillo y Alfonso Cordero, Edificio Cámara de Industrias, Cuenca, Ecuador</div>
@@ -814,7 +879,7 @@
             <p class="team-detail-bio">${m.bio ? esc(m.bio) : `<b>${esc(m.name)}</b> ${esc(T.team.bioIntro)} <b>Vignolo Barzallo</b>.${m.credential ? ' ' + esc(m.credential) + '.' : ''}`}</p>
             <div class="team-detail-trajectory">
               <div class="t-title">${esc(T.team.trajectoryLabel)}</div>
-              <ul><li>${esc(roleLabel)}, Vignolo Barzallo — ${esc(T.team.present)}</li></ul>
+              <ul>${trajectoryItems(m, roleLabel).map(i => `<li>${esc(i)}</li>`).join('')}</ul>
             </div>
             ${resumeAccordion(m.resume)}
           </div>
@@ -823,7 +888,7 @@
     }
 
     const founders = ['alex', 'mariabarzallo'];
-    const partners = ['giancarlo', 'mariaaugusta', 'eugenio', 'gabriela', 'pedro'];
+    const partners = ['giancarlo', 'mariaaugusta', 'eugenio', 'gabriela', 'pedro', 'veronica'];
     const lawyers = ['paulromo', 'pedrovillavicencio', 'pedrozamora'];
 
     return `
@@ -849,14 +914,16 @@
       </div>
 
       ${adminTeam.length ? `
-      <div class="admin-team reveal">
-        <div class="admin-team-label">${esc(T.team.adminLabel)}</div>
-        <div class="admin-team-grid">
-          ${adminTeam.map(m => `
-            <div class="admin-team-member">
-              <div class="admin-team-name">${esc(m.name)}</div>
-              <div class="admin-team-role">${esc(m.role)}</div>
-            </div>`).join('')}
+      <div class="extended-team reveal">
+        <div class="extended-team-group">
+          <div class="admin-team-label">${esc(T.team.adminLabel)}</div>
+          <div class="admin-team-grid">
+            ${adminTeam.map(m => `
+              <div class="admin-team-member">
+                <div class="admin-team-name">${esc(m.name)}</div>
+                <div class="admin-team-role">${esc(m.role)}</div>
+              </div>`).join('')}
+          </div>
         </div>
       </div>` : ''}
     `;

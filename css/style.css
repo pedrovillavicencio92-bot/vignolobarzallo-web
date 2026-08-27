@@ -414,12 +414,14 @@ a:hover { color: #8a9200; }
 .accordion-list li { font-size: 14.5px; line-height: 1.6; color: rgba(21,35,52,.72); font-weight: 300; padding-left: 18px; position: relative; text-align: justify; text-justify: inter-word; }
 .accordion-list li::before { content: '•'; color: var(--olive); position: absolute; left: 0; }
 
-.admin-team {
-  border-top: 1px solid rgba(21,35,52,.12); padding-top: 64px; text-align: center;
+.extended-team {
+  border-top: 1px solid rgba(21,35,52,.12); padding-top: 64px; padding-bottom: 20px; text-align: center;
 }
+.extended-team-group { margin-bottom: 52px; }
+.extended-team-group:last-child { margin-bottom: 0; }
 .admin-team-label {
   font-size: 14.5px; letter-spacing: .24em; text-transform: uppercase;
-  color: var(--navy); font-weight: 600; margin-bottom: 48px;
+  color: var(--navy); font-weight: 600; margin-bottom: 40px;
 }
 .admin-team-grid { display: flex; justify-content: center; flex-wrap: wrap; gap: 70px; }
 .admin-team-member { min-width: 180px; }
